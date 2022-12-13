@@ -1,0 +1,25 @@
+footer * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+footer * ul {
+  list-style: none;
+}
+footer * a {
+  text-decoration: none;
+  color: rgb(92, 90, 90);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+footer * a:hover {
+  text-decoration: underline;
+}
+footer * h4 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 8px;
+  margin-right: 100px;
+}
+footer * .row {
+  display: flex;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=footer.css.map */
