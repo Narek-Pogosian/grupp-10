@@ -43,7 +43,7 @@ $primary-text: rgb(62, 60, 60);
         display: flex;
         flex-wrap:wrap;
         justify-content: flex-start;
-        margin-left: 150px;
+        margin-left: 180px;
         
     }
 
@@ -85,8 +85,15 @@ $primary-text: rgb(62, 60, 60);
 
 }
 @media only screen and (max-width: 600px){
-   .row {
-    
-   }
-}
+  .row {
+    padding-left: 10px;
+    margin-left: 0;
+    display: block;
+  }
+
+  }
+
+
+
+
 
