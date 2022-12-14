@@ -1,5 +1,15 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 .slideshow-container {
@@ -69,6 +79,36 @@
   to {
     opacity: 1;
   }
+}
+.support-hero {
+  background-image: url("../Images/support-hero.jpg");
+  background-size: cover;
+  height: 327px;
+  padding-top: 80px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.support-products {
+  display: flex;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.support-product-link {
+  color: black;
+  font-size: 1.25rem;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.support-product-link i {
+  margin-bottom: 2px;
+  height: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
