@@ -6,10 +6,10 @@
         justify-content: center;
         flex-wrap: wrap;
     }
+  
     .icon {
         margin: -40px;
         margin-top: 1px;
-        
     }
     .break {
         flex-basis: 100%;
@@ -45,12 +45,18 @@
         justify-content: center;
         flex-wrap: wrap;
         margin-top: 80px;
+    }  
+    .image1-1 {
+        height: 600px;
+        margin-bottom: 30px;
+        
     }
     .image1{
         height: 700px;
         margin-top: 30px;
         margin-bottom: 10px;
     }
+
     .iconimages {
         height: 75px;
     }
@@ -61,12 +67,23 @@
     .ipad1text {
         text-align: center;
         margin-top: 200px;
+
+        .textRow {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: -30px;
+
+        }
         
 
         a {
             text-decoration: none;
             color:rgb(75, 108, 225);
             font-size: 18px;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         p {
             font-weight: 400;
@@ -103,20 +120,33 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+    
 
-        img {
+        .black {
             height: 700px;
+            margin-left: 500px;
         }
         .blackBackground {
             height: 700px;
             background: black;
             width: 100%;
             text-align: center;
-
         }
        
     }
+    .ipads {
+
+        h2 {
+            font-size: 55px;
+            padding-bottom: 50px;
+        }
+
+        .iconimage2 {
+            height: 100px; 
+        }
+    }
+    
 
     
 
