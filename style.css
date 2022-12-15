@@ -110,5 +110,11 @@ a {
   margin-bottom: 2px;
   height: 30px;
 }
+.support-product-link p {
+  height: 20px;
+}
+.support-product-link:hover p {
+  border-bottom: 2px solid black;
+}
 
 /*# sourceMappingURL=style.css.map */

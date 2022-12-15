@@ -28,4 +28,14 @@
     margin-bottom: 2px;
     height: 30px;
   }
+
+  p {
+    height: 20px;
+  }
+
+  &:hover {
+    p {
+      border-bottom: 2px solid black;
+    }
+  }
 }
