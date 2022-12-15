@@ -50,14 +50,17 @@ body {
 }
 .homepage-section .module-iphone14-pro {
   background-color: black;
-  width: 45%;
+  width: 50%;
+  height: 60vh;
+  margin-bottom: 10px;
   text-align: center;
   color: #fff;
+  cursor: pointer;
 }
 .homepage-section .module-iphone14-pro .iphone14-wrapper-text {
   position: absolute;
   top: 700px;
-  left: 300px;
+  left: 350px;
 }
 .homepage-section .module-iphone14-pro .iphone14-pro {
   width: 70%;
@@ -73,7 +76,7 @@ body {
   margin-bottom: 10px;
 }
 .homepage-section a {
-  margin-left: 10px;
+  margin-left: 20px;
   color: #2997ff;
   text-decoration: none;
 }
