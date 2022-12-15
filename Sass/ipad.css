@@ -1,0 +1,110 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+* .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+* .icon {
+  margin: -40px;
+  margin-top: 1px;
+}
+* .break {
+  flex-basis: 100%;
+  height: 0;
+  text-align: center;
+}
+* .underText {
+  color: orange;
+  font-size: 12px;
+  margin-top: -15px;
+  text-align: center;
+}
+* .underText2 {
+  color: orange;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+* .iconText {
+  font-size: 14px;
+  text-align: center;
+}
+* .icon a {
+  text-decoration: none;
+}
+* .icon a:hover {
+  color: rgb(129, 187, 206);
+}
+* .ipad1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+* .image1 {
+  height: 700px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+* .iconimages {
+  height: 75px;
+}
+* .break p {
+  padding-top: 45px;
+}
+* .ipad1text {
+  text-align: center;
+  margin-top: 200px;
+}
+* .ipad1text a {
+  text-decoration: none;
+  color: rgb(75, 108, 225);
+  font-size: 18px;
+}
+* .ipad1text p {
+  font-weight: 400;
+}
+* .ipad1text h2 {
+  font-size: 60px;
+  font-weight: 600;
+  margin: -30px;
+}
+* .ipad1text .prisText {
+  font-size: 18px;
+}
+* .ipad1text h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+* .buyButton {
+  border-radius: 20px;
+  padding: 6px;
+  width: 65px;
+  height: 40px;
+  color: white;
+  background: rgb(75, 108, 225);
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+* .buyButton:hover {
+  background: rgb(94, 126, 241);
+}
+* .ipad2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+* .ipad2 img {
+  height: 700px;
+}
+* .ipad2 .blackBackground {
+  height: 700px;
+  background: black;
+  width: 100%;
+  text-align: center;
+}/*# sourceMappingURL=ipad.css.map */
