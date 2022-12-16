@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
 }
 
 .navbar.navbar-dark.navbar-expand-md.bg-dark {
@@ -9,7 +9,6 @@ body{
   overflow: hidden;
   width: 100%;
   height: 48px;
-  color: white;
 }
 
 .fa.fa-apple.apple-logo { 
@@ -17,14 +16,124 @@ body{
   line-height: 0.8;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
+.apple-present {
+  background-color: rgb(1, 0, 42);
   width: 100%;
+  height: 600px;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
+img {
+  display: block;
+  -webkit-user-select: none;
+  margin: auto;
+  cursor: zoom-in;
+  background-color: hsl(0, 0%, 90%);
+  transition: background-color 300ms;
+  width: 300px;
+  height: 300px;
 }
+
+.apple-present h1 {
+  color: white;
+  text-align: center;
+}
+
+.apple-present h2 {
+  color: white;
+  text-align: center;
+}
+
+.apple-present a {
+  text-align: center;
+  display: block;
+}
+
+.Watch {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+}
+
+.first-box img {
+  width: 300px;
+  height: 300px;
+}
+.second-box img {
+  width: 500px;
+  height: 170px;
+}
+
+
+.first-box {
+  width:570px;
+  height: 500px;
+  float:left; 
+  background: rgb(0, 0, 0); 
+  margin: 30px
+}
+
+
+.second-box {
+  width:570px; 
+  height: 500px; 
+  float:right; 
+  background: rgb(250, 250, 255);
+  margin: 30px
+}
+
+
+
+.first-box h1 {
+  color: white;
+  font-size: 30px;
+  text-align: center ;
+}
+.first-box h2 {
+  color: rgb(255, 0, 0);
+  font-size: 15px;
+  text-align: center;
+}
+.first-box h3 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.first-box a {
+  text-align: center;
+}
+
+
+.second-box h1 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  text-align: center ;
+}
+.second-box h2 {
+  color: rgb(255, 94, 0);
+  font-size: 15px;
+  text-align: center;
+}
+.second-box h3 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-align: center;
+}
+.second-box a {
+  text-align: center;
+}
+
+
+
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
