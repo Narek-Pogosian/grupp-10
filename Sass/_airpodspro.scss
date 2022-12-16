@@ -17,7 +17,7 @@
     img {
         width: 700px;
         height: 400px;
-        margin-left: 65px;
+        margin-left: 75px;
     }
     
     }
@@ -26,6 +26,20 @@
 .image1-1 {
     height: 650px;
     margin-bottom: 70px;
+}
+.ipad1 {
+
+    .textRow {
+        display: flex;
+        justify-content: space-around;
+
+        p {
+            margin-top: -20px;
+            font-weight: 400;
+            font-size: 21px;
+        }
+      
+}
 }
 
 .airpodtext {
