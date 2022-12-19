@@ -242,12 +242,147 @@
 .icons2 .grid {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(5, 400px);
+  grid-template-columns: o;
   grid-template-rows: 150px 50px 100px;
+  grid-row-gap: 150px;
+}
+.icons2 .grid h4 {
+  font-size: 20px;
+}
+.icons2 .grid p {
+  font-weight: 500;
+}
+.icons2 .grid button {
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+  width: 45px;
+}
+.icons2 .grid a {
+  text-decoration: none;
+  color: rgb(75, 108, 225);
+}
+.icons2 .grid a:hover {
+  text-decoration: underline;
+}
+.icons2 .grid .ipad-a-text {
+  color: rgb(75, 108, 225);
+  font-weight: 500;
+}
+.icons2 hr {
+  width: 85%;
 }
 .icons2 .ipad-text {
   margin: 20px;
 }
+.icons2 .ipad-content p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.ipad-models-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.ipad-models {
+  text-decoration: none;
+  color: rgb(0, 148, 242);
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.ipad-present {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.present-background {
+  background: rgb(1, 1, 42);
+  width: 1370px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.present-background .present-img {
+  height: 100px;
+}
+.present-background .present-img2 {
+  height: 500px;
+}
+.present-background h2 {
+  color: white;
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: -35px;
+}
+.present-background p {
+  color: white;
+  font-size: 20px;
+  margin-top: -20px;
+}
+.present-background a {
+  color: rgb(0, 148, 242);
+  text-decoration: none;
+  font-size: 20px;
+}
+.present-background a:hover {
+  text-decoration: underline;
+}
+.present-background .present-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.ipads-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.ipads-text h2 {
+  font-size: 45px;
+  font-weight: 500;
+}
+.ipads-text p {
+  margin-top: -10px;
+  font-size: 19px;
+}
+.ipads-text a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 148, 242);
+}
+.ipads-text a:hover {
+  text-decoration: underline;
+}
+.ipads-text .ipads-image {
+  margin-top: 15px;
+}
+.ipads-text img {
+  height: 360px;
+}
+
+.ipad-options {
+  display: flex;
+  justify-content: center;
+}
+
 .main-section {
   display: grid;
   grid-template-rows: 0;
@@ -360,12 +495,6 @@
   text-decoration: underline;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-}
-
 .center-text {
   margin-right: 35px;
 }
@@ -408,14 +537,6 @@ body {
 }
 .container1 a {
   color: #06c;
-}
-
-img {
-  max-width: 100%;
-}
-
-a {
-  text-decoration: none;
 }
 
 .slideshow-container {
