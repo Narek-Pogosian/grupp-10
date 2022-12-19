@@ -5,11 +5,60 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/f2b9b97916.js" crossorigin="anonymous" defer></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="./script.js" defer></script>
   <title>Apple (Sverige)</title>
 </head>
 
 <body>
+
+  <header>
+    <nav>
+      <ul>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa fa-apple fa-xl"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Butik</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Mac</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">iPad</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">iPhone</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Watch</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">AirPods</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tv och hem</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bara hos Apple</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tillbehör</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Pages/support.html">Support</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
 
   <section class="homepage">
 
@@ -18,7 +67,7 @@
         <h1>iPhone 14</h1>
         <h2>Stor och större.</h2>
 
-        <a class="icon" id="icon1" href="#">Läs mer ></a> 
+        <a class="icon" id="icon1" href="#">Läs mer ></a>
         <a class="icon" href="#">Köp ></a>
 
       </div>
@@ -27,8 +76,6 @@
       </div>
 
     </div>
-
-
   </section>
 
   <section class="homepage-section">
@@ -41,12 +88,60 @@
           <a href="#">Läs mer ></a>
           <a href="#">Köp ></a>
         </div>
-        </div>
-        <div>
-          <a href="#"><img class="iphone14-pro" src="/images/iphone14-pro.png" alt="iPhone 14 pro"></a>
-        </div>
+      </div>
+      <div>
+        <a href="#"><img class="iphone14-pro" src="/images/iphone14-pro.png" alt="iPhone 14 pro"></a>
+      </div>
     </div>
   </section>
+
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="./Images/Emancipation.webp" style="width: 100%" />
+    </div>
+    <div class="mySlides fade">
+      <img src="./Images/Spirited.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides fade">
+      <img src="./Images/Ted Lasso.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides fade">
+      <img src="./Images/echo3.webp" style="width: 100%" />
+    </div>
+    <div class="mySlides fade">
+      <img src="./Images/charliebrown.webp" style="width: 100%" />
+    </div>
+    <div class="mySlides fade">
+      <img src="./Images/littleamerica.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides fade">
+      <img src="./Images/selena.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides fade">
+      <img src="./Images/shantaram.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides fade">
+      <img src="./Images/severance.jpg" style="width: 100%" />
+    </div>
+    <div class="mySlides fade">
+      <img src="./Images/see.jpg" style="width: 100%" />
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br />
+  <div style="text-align: center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+  </div>
 
 </body>
 

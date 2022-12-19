@@ -1,0 +1,41 @@
+.support-hero {
+  background-image: url("../Images/support-hero.jpg");
+  background-size: cover;
+  height: 500px;
+  padding-top: 80px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.support-products {
+  display: flex;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.support-product-link {
+  color: black;
+  font-size: 1.25rem;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  i {
+    margin-bottom: 2px;
+    height: 30px;
+  }
+
+  p {
+    height: 20px;
+  }
+
+  &:hover {
+    p {
+      border-bottom: 2px solid black;
+    }
+  }
+}
