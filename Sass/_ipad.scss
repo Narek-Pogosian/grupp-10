@@ -20,13 +20,10 @@
         font-size: 12px;
         margin-top: -15px;
         text-align: center;
+        margin-bottom: 20px;
+       
     }
-    .underText2 {
-        color: orange;
-        font-size: 14px;
-        margin-bottom: 25px;
 
-    }
     .iconText {
         font-size: 14px;
         text-align: center;
@@ -119,23 +116,91 @@
             background: black;
             width: 100%;
             text-align: center;
-        }
-       
-    }
-    .ipads {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
 
+            div {
+             position: absolute;
+             left: 470px;
+            }
+            
+        }
+
+        h2, h4, p {
+            color: white;
+        }
+     
+     
+        h2 {
+            font-size: 60px;
+            font-weight: 600;
+            margin-bottom: -30px;
+
+        }
+        h4 {
+            font-size: 25px;
+            margin-bottom: -2px;
+        }
+            .underText2 {
+        color: orange;
+        font-size: 14px;
+        margin-bottom: -50px;
+        }
+        img {
+            height: 45px;
+        }
+        a:hover {
+                text-decoration: underline;
+            }
+          a {
+            color: rgb(75, 108, 225);
+            text-decoration: none;
+           
+            p {
+                color:rgb(75, 108, 225) ;
+            }
+        }
+    }
+   
+
+}
+    
+    .icon {
+        height: 200px;
+    }
+    .icons2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        
+        
         h2 {
             font-size: 55px;
             padding-bottom: 50px;
+            margin-top: 120px;
+        }
+        img {
+            height: 16em;
+            margin-left: -60px;
+            margin-right: -60px;
+        }
+        .grid {
+            text-align: center;
+            display: grid;
+            grid-template-columns: repeat(5, 400px);
+            grid-template-rows: 150px 50px 100px;
+        }
+        .ipad-text {
+           margin: 20px;
         }
 
-        .iconimage2 {
-            height: 100px; 
+        .ipad-icon2 {
+      
         }
+
+
     }
-
-    
-
-
-
- }
