@@ -1,10 +1,14 @@
+.main-section {
+    display: grid;
+    grid-template-rows: 0;
+}
 .airpodsPro {
     display: flex;
     justify-content: flex-end;
     text-align: center;
 
     .airpods {
-        width: 50%;
+        width: 49.5%;
         height: 60vh;
         background: black;
         align-items: flex-end;
