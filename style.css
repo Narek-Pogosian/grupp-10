@@ -1,3 +1,88 @@
+.homepage-section {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.homepage-section .module-iphone14-pro {
+  background-color: black;
+  width: 45%;
+  height: 60vh;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.homepage-section .module-iphone14-pro .iphone14-wrapper-text {
+  position: absolute;
+  top: 700px;
+  left: 300px;
+}
+.homepage-section .module-iphone14-pro .iphone14-pro {
+  width: 70%;
+  margin-top: 200px;
+}
+.homepage-section h4 {
+  font-size: 40px;
+  margin: 0px;
+}
+.homepage-section h5 {
+  font-size: 21px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.homepage-section a {
+  margin-left: 20px;
+  color: #2997ff;
+  text-decoration: none;
+}
+.homepage-section a:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.container1 {
+  width: 100%;
+  background-color: #fbfbfd;
+}
+.container1 .image1 {
+  display: flex;
+  justify-content: center;
+}
+.container1 .wrapper-text {
+  text-align: center;
+}
+.container1 h1 {
+  font-size: 3.5rem;
+  margin: 0px;
+  font-weight: 600;
+}
+.container1 h2 {
+  margin: 10px;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+.container1 .icon {
+  margin-left: 20px;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.container1 #icon1 {
+  margin-left: 0;
+}
+.container1 .icon:hover {
+  text-decoration: underline;
+}
+.container1 .bild1 {
+  width: 50vw;
+}
+.container1 a {
+  color: #06c;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -36,7 +121,10 @@ a {
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 /* Position the "next button" to the right */
@@ -68,8 +156,19 @@ a {
 }
 
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
@@ -145,6 +244,7 @@ a {
 }
 
 header {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
@@ -162,13 +262,11 @@ header nav ul {
   gap: 25px;
 }
 header .nav-link {
-  color: #dcdbdb;
+  color: rgb(220, 219, 219);
   padding: 10px;
   font-size: 12px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 header .nav-link:hover {
   color: white;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
