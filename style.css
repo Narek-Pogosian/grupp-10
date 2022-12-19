@@ -20,21 +20,21 @@
   width: 70%;
   margin-top: 200px;
 }
-.homepage-section h4 {
+.homepage-section .module-iphone14-pro h4 {
   font-size: 40px;
   margin: 0px;
 }
-.homepage-section h5 {
+.homepage-section .module-iphone14-pro h5 {
   font-size: 21px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.homepage-section a {
+.homepage-section .module-iphone14-pro a {
   margin-left: 20px;
   color: #2997ff;
   text-decoration: none;
 }
-.homepage-section a:hover {
+.homepage-section .module-iphone14-pro a:hover {
   text-decoration: underline;
 }
 
