@@ -3,7 +3,10 @@ body{
     padding: 0;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
-
+ 
+.center-text {
+    margin-right: 35px;
+}
 .container1{
     width: 100%;
     background-color: #fbfbfd;
@@ -31,13 +34,14 @@ body{
     }
 
     .icon{
-        margin-left: 20px;
+        margin-left: 30px;
         font-size: 1.3rem;
         text-decoration: none;
     }
 
     #icon1{
         margin-left: 0;
+        margin-right: 20px ;
     }
 
     .icon:hover{
