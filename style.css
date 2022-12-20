@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .footer,
 .container,
 .row,
@@ -317,15 +318,6 @@
   height: 200px;
 }
 
-.ipads {
-  display: flex;
-  justify-content: center;
-}
-
-.ipad-icon2 {
-  height: 500px;
-}
-
 .icons2 {
   display: flex;
   flex-direction: row;
@@ -563,7 +555,34 @@ a:hover {
   margin-left: 10px;
   margin-right: 10px;
 }
-.homepage-section .module-iphone14-pro {
+.homepage-section .iphone14-wrapper-text {
+  position: absolute;
+  top: 700px;
+  left: 300px;
+}
+.homepage-section .iphone14-pro {
+  width: 70%;
+  margin-top: 200px;
+}
+.homepage-section h4 {
+  font-size: 40px;
+  margin: 0px;
+}
+.homepage-section h5 {
+  font-size: 21px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.homepage-section a {
+  margin-left: 20px;
+  color: #2997ff;
+  text-decoration: none;
+}
+.homepage-section a:hover {
+  text-decoration: underline;
+}
+
+.module-iphone14-pro {
   background-color: black;
   width: 49.5%;
   height: 60vh;
@@ -572,31 +591,37 @@ a:hover {
   color: #fff;
   cursor: pointer;
 }
-.homepage-section .module-iphone14-pro .iphone14-wrapper-text {
+.module-iphone14-pro .iphone14-wrapper-text {
   position: absolute;
   top: 1800px;
   left: 350px;
 }
-.homepage-section .module-iphone14-pro .iphone14-pro {
+.module-iphone14-pro .iphone14-pro {
   width: 70%;
   margin-top: 200px;
 }
-.homepage-section .module-iphone14-pro h4 {
+.module-iphone14-pro h4 {
   font-size: 40px;
   margin: 0px;
 }
-.homepage-section .module-iphone14-pro h5 {
+.module-iphone14-pro h5 {
   font-size: 21px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.homepage-section .module-iphone14-pro a {
+.module-iphone14-pro a {
   margin-left: 20px;
   color: #2997ff;
   text-decoration: none;
 }
-.homepage-section .module-iphone14-pro a:hover {
+.module-iphone14-pro a:hover {
   text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .center-text {
@@ -641,25 +666,6 @@ a:hover {
 }
 .container1 a {
   color: #06c;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-body {
-  overflow-x: hidden;
-}
-
-img {
-  max-width: 100%;
-}
-
-a {
-  text-decoration: none;
 }
 
 .slideshow-container {
@@ -774,6 +780,7 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
+  text-decoration: none;
 }
 .support-product-link i {
   margin-bottom: 2px;
@@ -781,6 +788,9 @@ a {
 }
 .support-product-link p {
   height: 25px;
+}
+.support-product-link:hover {
+  text-decoration: none;
 }
 .support-product-link:hover p {
   border-bottom: 2px solid black;
@@ -801,6 +811,7 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  text-decoration: none;
 }
 .support-links-container .support-link:nth-child(2) {
   border-left: 1px solid #dedede;
@@ -808,9 +819,10 @@ a {
 }
 .support-links-container .support-link p {
   padding: 5px;
+  border: none;
 }
 .support-links-container .support-link:hover p {
-  border-bottom: 1px solid rgb(89, 89, 187);
+  border-bottom: 2px solid rgb(89, 89, 187);
 }
 
 .support-search {
@@ -824,32 +836,256 @@ a {
 }
 .support-search .input-wrapper {
   width: 100%;
+  position: relative;
+}
+.support-search .input-wrapper input {
+  box-sizing: border-box;
+  padding: 8px 0 8px 25px;
+  width: 100%;
+}
+.support-search .input-wrapper i {
+  position: absolute;
+  top: 11px;
+  left: 7px;
+}
+.support-search .input-wrapper .search-suggestions {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: white;
+  border: 1px solid black;
+  border-top: 0;
+  padding: 10px;
+  display: none;
+}
+.support-search .input-wrapper .search-suggestions ul {
+  list-style: none;
+}
+.support-search .input-wrapper .search-suggestions ul li {
+  padding: 5px 0;
+}
+.support-search .input-wrapper .search-suggestions ul li a {
+  text-decoration: none;
+  color: black;
+}
+.support-search .input-wrapper .search-suggestions ul li a:hover {
+  color: blue;
+}
+.support-search .input-wrapper input:is(:focus) + .search-suggestions {
+  display: block;
+}
+
+.search-update {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+.search-update .search-update-text {
+  width: 350px;
+  height: 209px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.search-update .search-update-text h2 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+.search-update .search-update-text p {
+  font-size: 1.25rem;
+  margin: 0;
+  color: gray;
+}
+.search-update .search-update-text a {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #66bafe;
+}
+.search-update .search-update-text a::after {
+  content: "›";
+  font-size: 2rem;
+  margin-left: 0.5rem;
+}
+.search-update .search-update-text a:hover {
+  color: #367ab2;
+}
+
+.get-support {
+  height: 400px;
+  background-image: url("../Images/get-support.jpg");
+  background-size: cover;
+  position: relative;
+}
+.get-support-text {
+  position: absolute;
+  top: 50%;
+  left: 250px;
+  transform: translateY(-50%);
+}
+.get-support-text h2 {
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+}
+.get-support-text p {
+  color: white;
+}
+.get-support-text a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #66bafe;
+  font-size: 1.25rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.get-support-text a::after {
+  content: "›";
+  font-size: 2rem;
+  margin-left: 0.5rem;
+}
+.get-support-text a:hover {
+  color: #367ab2;
+}
+
+.support-trade {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+.support-trade-text {
+  width: 450px;
+}
+.support-trade-text h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+.support-trade-text p {
+  font-size: 1.25rem;
+  color: gray;
+}
+.support-trade-text a {
+  text-decoration: none;
+  color: #66bafe;
+  font-size: 1.25rem;
+}
+.support-trade-text a::after {
+  content: "›";
+  font-size: 2rem;
+  margin-left: 0.5rem;
+}
+.support-trade-text a:hover {
+  border-bottom: 2px solid #66bafe;
+}
+
+.support-accidents,
+.my-support,
+.support-beware {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 0;
+}
+.support-accidents-text,
+.my-support-text,
+.support-beware-text {
+  width: 450px;
+}
+.support-accidents-text h2,
+.my-support-text h2,
+.support-beware-text h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+.support-accidents-text p,
+.my-support-text p,
+.support-beware-text p {
+  font-size: 1.25rem;
+  color: gray;
+}
+.support-accidents-text a,
+.my-support-text a,
+.support-beware-text a {
+  text-decoration: none;
+  color: #66bafe;
+  font-size: 1.25rem;
+}
+.support-accidents-text a::after,
+.my-support-text a::after,
+.support-beware-text a::after {
+  content: "›";
+  font-size: 2rem;
+  margin-left: 0.5rem;
+}
+.support-accidents-text a:hover,
+.my-support-text a:hover,
+.support-beware-text a:hover {
+  border-bottom: 2px solid #66bafe;
+}
+
+.support-text-container {
+  text-align: center;
+  padding: 20px 0;
+  width: 50%;
+  margin: 0 auto;
+}
+.support-text-container p {
+  color: gray;
+  font-size: 1.25rem;
+}
+
+.apple-services {
+  padding: 30px 0 30px 300px;
+}
+.apple-services ul {
+  list-style: none;
+  padding: 0;
+}
+.apple-services ul li {
+  padding: 5px 0;
+}
+.apple-services ul li a {
+  text-decoration: none;
+  color: #367ab2;
+  font-size: 18px;
+}
+.apple-services ul li a:hover {
+  border-bottom: 2px solid #367ab2;
+}
+.apple-services ul li:last-child a::after {
+  content: "›";
+  margin-left: 0.5rem;
+  padding: 0;
+  font-size: 20px;
 }
 
 header {
   position: -webkit-sticky;
   position: sticky;
+  width: 100%;
   top: 0;
   left: 0;
-  width: 100%;
+  height: 50px;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 999;
-  height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-header nav ul {
+header ul {
   display: flex;
-  list-style: none;
-  gap: 25px;
-}
-header .nav-link {
-  color: rgb(220, 219, 219);
-  padding: 10px;
+  gap: 20px;
   font-size: 12px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  list-style: none;
 }
-header .nav-link:hover {
+header li a {
+  text-decoration: none;
+  color: rgb(224, 224, 224);
+}
+header li a:hover {
   color: white;
+}
+
+.appleTv h4 {
+  font-size: 40px;
 }/*# sourceMappingURL=style.css.map */
