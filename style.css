@@ -25,7 +25,7 @@
 .list a,
 .text2 a {
   text-decoration: none;
-  color: #5c5a5a;
+  color: rgb(92, 90, 90);
 }
 .footer a:hover,
 .container a:hover,
@@ -43,7 +43,7 @@
 .header h4,
 .list h4,
 .text2 h4 {
-  color: #3e3c3c;
+  color: rgb(62, 60, 60);
   margin-bottom: 8px;
   margin-right: 100px;
   padding-top: 18px;
@@ -87,7 +87,7 @@
 .header .footer,
 .list .footer,
 .text2 .footer {
-  background: #e3e1e9;
+  background: rgb(227, 225, 233);
 }
 .footer .break,
 .container .break,
@@ -118,7 +118,7 @@
 .text2 .horizontal-line {
   width: 900px;
   height: 1px;
-  background-color: #d0c8c8;
+  background-color: rgb(208, 200, 200);
   margin-top: 8px;
   margin-bottom: 8px;
 }
@@ -140,7 +140,7 @@
 .header p,
 .list p,
 .text2 p {
-  color: #5c5a5a;
+  color: rgb(92, 90, 90);
 }
 
 @media only screen and (max-width: 600px) {
@@ -188,7 +188,7 @@
 }
 
 .icon a:hover {
-  color: #81bbce;
+  color: rgb(129, 187, 206);
 }
 
 .ipad1 {
@@ -219,7 +219,7 @@
 }
 .ipad1text a {
   text-decoration: none;
-  color: #4b6ce1;
+  color: rgb(75, 108, 225);
   font-size: 18px;
 }
 .ipad1text a:hover {
@@ -247,14 +247,14 @@
   width: 65px;
   height: 40px;
   color: white;
-  background: #4b6ce1;
+  background: rgb(75, 108, 225);
   border: none;
   cursor: pointer;
   font-size: 18px;
 }
 
 .buyButton:hover {
-  background: #5e7ef1;
+  background: rgb(94, 126, 241);
 }
 
 .ipad2 {
@@ -307,11 +307,11 @@
   text-decoration: underline;
 }
 .ipad2 a {
-  color: #4b6ce1;
+  color: rgb(75, 108, 225);
   text-decoration: none;
 }
 .ipad2 a p {
-  color: #4b6ce1;
+  color: rgb(75, 108, 225);
 }
 
 .icon {
@@ -357,13 +357,13 @@
 }
 .icons2 .grid a {
   text-decoration: none;
-  color: #4b6ce1;
+  color: rgb(75, 108, 225);
 }
 .icons2 .grid a:hover {
   text-decoration: underline;
 }
 .icons2 .grid .ipad-a-text {
-  color: #4b6ce1;
+  color: rgb(75, 108, 225);
   font-weight: 500;
 }
 .icons2 hr {
@@ -386,7 +386,7 @@
 
 .ipad-models {
   text-decoration: none;
-  color: #0094f2;
+  color: rgb(0, 148, 242);
   font-size: 20px;
 }
 
@@ -401,7 +401,7 @@ a:hover {
 }
 
 .present-background {
-  background: #01012a;
+  background: rgb(1, 1, 42);
   width: 1370px;
   height: 580px;
   display: flex;
@@ -429,7 +429,7 @@ a:hover {
   margin-top: -20px;
 }
 .present-background a {
-  color: #0094f2;
+  color: rgb(0, 148, 242);
   text-decoration: none;
   font-size: 20px;
 }
@@ -462,7 +462,7 @@ a:hover {
 .ipads-text a {
   text-decoration: none;
   font-size: 20px;
-  color: #0094f2;
+  color: rgb(0, 148, 242);
 }
 .ipads-text a:hover {
   text-decoration: underline;
@@ -527,7 +527,7 @@ a:hover {
 }
 .airpodtext a {
   text-decoration: none;
-  color: #5897c7;
+  color: rgb(88, 151, 199);
   font-size: 18px;
   margin-left: 10px;
   margin-right: 10px;
@@ -581,6 +581,7 @@ a:hover {
   font-size: 21px;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-weight: 400;
 }
 .homepage-section .module-iphone14-pro a {
   margin-left: 20px;
@@ -666,7 +667,10 @@ body {
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 /* Position the "next button" to the right */
@@ -702,8 +706,19 @@ body {
 }
 
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
@@ -764,7 +779,7 @@ body {
 }
 .support-links-container .support-link {
   padding: 2rem 7rem;
-  color: #5959bb;
+  color: rgb(89, 89, 187);
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
@@ -781,7 +796,7 @@ body {
   border: none;
 }
 .support-links-container .support-link:hover p {
-  border-bottom: 2px solid #5959bb;
+  border-bottom: 2px solid rgb(89, 89, 187);
 }
 
 .support-search {
@@ -894,6 +909,8 @@ body {
   text-decoration: none;
   color: #66bafe;
   font-size: 1.25rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 .get-support-text a::after {
@@ -1017,6 +1034,7 @@ body {
 }
 
 header {
+  position: -webkit-sticky;
   position: sticky;
   width: 100%;
   top: 0;
@@ -1036,10 +1054,8 @@ header ul {
 }
 header li a {
   text-decoration: none;
-  color: #e0e0e0;
+  color: rgb(224, 224, 224);
 }
 header li a:hover {
   color: white;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
