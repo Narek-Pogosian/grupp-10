@@ -23,6 +23,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  text-decoration: none;
 
   i {
     margin-bottom: 2px;
@@ -31,10 +32,11 @@
 
   p {
     height: 25px;
-    border: 0;
   }
 
   &:hover {
+    text-decoration: none;
+
     p {
       border-bottom: 2px solid black;
     }
@@ -56,6 +58,7 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    text-decoration: none;
 
     &:nth-child(2) {
       border-left: 1px solid #dedede;
@@ -64,6 +67,7 @@
 
     p {
       padding: 5px;
+      border: none;
     }
 
     &:hover {
