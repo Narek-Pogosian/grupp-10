@@ -9,6 +9,7 @@
         width: 49.5%;
         justify-content: center;
         margin-top: 10px;
+        cursor: pointer;
 
 
         .apple-wrapper{
@@ -38,6 +39,17 @@
 
         .no-margin{
             margin-bottom: 0px;
+        }
+
+        a{
+            text-decoration: none;
+            margin: 5px;
+            font-size: 18px;
+            color: #06c;;
+        }
+
+        a:hover{
+            text-decoration: underline;
         }
     }
 }

@@ -746,9 +746,13 @@ body {
   font-weight: 300;
 }
 .container1 .icon {
-  margin-left: 30px;
+  margin: auto;
   font-size: 1.3rem;
   text-decoration: none;
+}
+.container1 #icon1 {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .container1 .icon:hover {
   text-decoration: underline;
@@ -1188,6 +1192,7 @@ header li a:hover {
   width: 49.5%;
   justify-content: center;
   margin-top: 10px;
+  cursor: pointer;
 }
 .appleTv .container2 .apple-wrapper {
   width: 100%;
@@ -1211,4 +1216,13 @@ header li a:hover {
 }
 .appleTv .container2 .no-margin {
   margin-bottom: 0px;
+}
+.appleTv .container2 a {
+  text-decoration: none;
+  margin: 5px;
+  font-size: 18px;
+  color: #06c;
+}
+.appleTv .container2 a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
