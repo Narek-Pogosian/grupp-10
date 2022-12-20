@@ -1054,4 +1054,39 @@ header li a {
 }
 header li a:hover {
   color: white;
+}
+
+.appleTv {
+  display: flex;
+  height: 60vh;
+  justify-content: flex-end;
+}
+.appleTv .container2 {
+  display: flex;
+  width: 49.5%;
+  justify-content: center;
+  margin-top: 10px;
+}
+.appleTv .container2 .apple-wrapper {
+  width: 100%;
+  text-align: center;
+  background-color: #f5f5f7;
+}
+.appleTv .container2 p {
+  margin-top: 0px;
+  font-size: 21px;
+}
+.appleTv .container2 h4 {
+  font-size: 40px;
+  margin: 30px 0 0 0;
+}
+.appleTv .container2 h5 {
+  font-size: 21px;
+  font-weight: 400;
+}
+.appleTv .container2 .tv-image {
+  width: 70%;
+}
+.appleTv .container2 .no-margin {
+  margin-bottom: 0px;
 }/*# sourceMappingURL=style.css.map */

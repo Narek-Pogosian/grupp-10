@@ -1,0 +1,43 @@
+.appleTv{
+    display: flex;
+    height: 60vh;
+    justify-content: flex-end;
+
+
+    .container2{
+        display: flex;
+        width: 49.5%;
+        justify-content: center;
+        margin-top: 10px;
+
+
+        .apple-wrapper{
+            width: 100%;
+            text-align: center;
+            background-color: #f5f5f7;
+        }
+
+        p{
+            margin-top: 0px;
+            font-size: 21px;
+        }
+
+        h4{
+            font-size: 40px;
+            margin: 30px 0 0 0;
+        }
+
+        h5{
+            font-size: 21px;
+            font-weight: 400;
+        }
+
+        .tv-image{
+            width: 70%;
+        }
+
+        .no-margin{
+            margin-bottom: 0px;
+        }
+    }
+}
