@@ -739,6 +739,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  text-decoration: none;
 }
 .support-product-link i {
   margin-bottom: 2px;
@@ -746,7 +747,9 @@ body {
 }
 .support-product-link p {
   height: 25px;
-  border: 0;
+}
+.support-product-link:hover {
+  text-decoration: none;
 }
 .support-product-link:hover p {
   border-bottom: 2px solid black;
@@ -767,6 +770,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  text-decoration: none;
 }
 .support-links-container .support-link:nth-child(2) {
   border-left: 1px solid #dedede;
@@ -774,6 +778,7 @@ body {
 }
 .support-links-container .support-link p {
   padding: 5px;
+  border: none;
 }
 .support-links-container .support-link:hover p {
   border-bottom: 2px solid #5959bb;
