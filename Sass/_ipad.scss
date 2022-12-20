@@ -443,5 +443,108 @@
       height: 440px;
   }
 
+
+    } 
+    
+    .ipad-models-text {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 50px;
+
+            }
+            .ipad-models {
+                text-decoration: none;
+                color: rgba(0,148,242,255);
+                font-size: 20px;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+ .ipad-present {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ }       
+   
+
+ .present-background {
+        background: rgba(1,1,42,255);
+        width: 1370px;
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+   
+    .present-img {
+        height: 100px;
+        
+    }
+    .present-img2{
+        height: 500px;
+    }
+    h2 {
+        color: white;
+        font-size: 45px;
+        font-weight: 500;
+        margin-top: -35px;
+    }
+    p {
+        color: white;
+        font-size: 20px;
+        margin-top: -20px;
+    }
+    a {
+        color: rgba(0,148,242,255);
+        text-decoration: none;
+        font-size: 20px;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .present-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 200px;
+    }
 }
 
+.ipads-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+
+    h2 {
+        font-size: 45px;
+        font-weight: 500;
+    }
+    p {
+        margin-top: -10px;
+        font-size: 19px;
+    }
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        color:rgba(0,148,242,255) ;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .ipads-image {
+        margin-top: 15px;  
+    }
+    img {
+        height: 360px;
+    }
+}
+.ipad-options {
+    display: flex;
+    justify-content: center;
+}
